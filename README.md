@@ -8,7 +8,7 @@ I have also included a main.py file, which loads the saved models and computes t
 
 Note that the main.py imports the datasets from the following files: import_test_celeba.py, import_test_cartoon_color.py and import_test_cartoon_gray.py. 
 This was done for a clearer code structure. They also save the datasets as .npy, so there is no need to re-load them everytime.
-The corresponding paths should be set correctly in these files before running main.py. At the moment, the paths correspond to the foldernames: cartoon_set_test 
+  The corresponding paths should be set correctly in these files before running main.py. The paths correspond to the following foldernames: cartoon_set_test 
 and celeba_test. 
 
 In the same way, if the models are to be trained again for different datasets, please check the paths in the files: import_cartoon.py, import_cartoon_color.py,
